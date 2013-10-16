@@ -21,6 +21,8 @@
 		9B2846AE180E9121003254D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B284690180E9121003254D3 /* UIKit.framework */; };
 		9B2846B6180E9121003254D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B2846B4180E9121003254D3 /* InfoPlist.strings */; };
 		9B2846B8180E9121003254D3 /* Hello_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2846B7180E9121003254D3 /* Hello_WorldTests.m */; };
+		9B2846C4180EA1DA003254D3 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B2846C3180EA1DA003254D3 /* icon@2x.png */; };
+		9B2846C6180EA1FC003254D3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B2846C5180EA1FC003254D3 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		9B2846B3180E9121003254D3 /* Hello WorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hello WorldTests-Info.plist"; sourceTree = "<group>"; };
 		9B2846B5180E9121003254D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B2846B7180E9121003254D3 /* Hello_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello_WorldTests.m; sourceTree = "<group>"; };
+		9B2846C3180EA1DA003254D3 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		9B2846C5180EA1FC003254D3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 		9B284693180E9121003254D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9B2846C5180EA1FC003254D3 /* icon.png */,
+				9B2846C3180EA1DA003254D3 /* icon@2x.png */,
 				9B284694180E9121003254D3 /* Hello World-Info.plist */,
 				9B284695180E9121003254D3 /* InfoPlist.strings */,
 				9B284698180E9121003254D3 /* main.m */,
@@ -230,8 +236,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B2846A5180E9121003254D3 /* Images.xcassets in Resources */,
+				9B2846C6180EA1FC003254D3 /* icon.png in Resources */,
 				9B284697180E9121003254D3 /* InfoPlist.strings in Resources */,
 				9B2846A0180E9121003254D3 /* Main.storyboard in Resources */,
+				9B2846C4180EA1DA003254D3 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
