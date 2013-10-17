@@ -14,16 +14,9 @@
 
 @implementation BIDViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+- (IBAction)buttonPressed:(UIButton *)sender {
+	NSString *title = [sender titleForState:UIControlStateNormal];
+	NSString *plainText = [NSString stringWithFormat:@"%@ button pressed.", title];
+	_statusLabel.text = plainText;
 }
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 @end
