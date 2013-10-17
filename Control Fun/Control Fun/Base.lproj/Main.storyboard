@@ -12,7 +12,7 @@
                         <viewControllerLayoutGuide type="top" id="3SW-pS-01Y"/>
                         <viewControllerLayoutGuide type="bottom" id="1py-Fl-278"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS" customClass="UIControl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
@@ -25,6 +25,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="textFieldDoneEditing:" destination="x5A-6p-PRh" eventType="editingDidEndOnExit" id="J8w-D4-8C7"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Name:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kC-OR-DGf">
                                 <rect key="frame" x="20" y="136" width="67" height="21"/>
@@ -38,6 +41,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="textFieldDoneEditing:" destination="x5A-6p-PRh" eventType="editingDidEndOnExit" id="oE4-Mo-b2Y"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Number:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F91-az-FW7">
                                 <rect key="frame" x="20" y="174" width="67" height="21"/>
@@ -52,6 +58,9 @@
                             <constraint firstItem="4kC-OR-DGf" firstAttribute="width" secondItem="F91-az-FW7" secondAttribute="width" id="QK6-SF-ksQ"/>
                             <constraint firstAttribute="centerX" secondItem="qy6-Vs-YAc" secondAttribute="centerX" id="jEM-lU-fKo"/>
                         </constraints>
+                        <connections>
+                            <action selector="backgroundTap:" destination="vXZ-lx-hvc" eventType="touchDown" id="H9q-eB-fPl"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="nameField" destination="FKH-9a-HZA" id="9pH-wg-quR"/>

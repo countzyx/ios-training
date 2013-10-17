@@ -12,4 +12,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *nameField;
 @property (weak, nonatomic) IBOutlet UITextField *numberField;
 
+- (IBAction)textFieldDoneEditing:(id)sender;
+- (IBAction)backgroundTap:(id)sender;
 @end
